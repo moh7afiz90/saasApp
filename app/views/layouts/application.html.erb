@@ -19,11 +19,24 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a href="/" class="navbar-brand"><i class="fa fa-group"></i> DevOpsMatch</a>
+            <!--
+              Links in HTML style
+              <a href="/" class="navbar-brand"><i class="fa fa-group"></i> DevOpsMatch</a>
+            -->
+            <!--Links in RoR-->
+            <%= link_to "/", class: "navbar_brand" do %>
+              <i class="fa fa-group"></i>
+              DevOpsMatch
+            <% end %>
           </div>
           <div class="collapse navbar-collapse" id="main-nav-collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="/about">About</a></li>
+              <!--
+                Links in HTML
+                <li><a href="/about">About</a></li>
+              -->
+              <!--Links in RoR -->
+              <li><%= link_to "About", "/about"%></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div>
