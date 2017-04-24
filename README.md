@@ -2,4 +2,4 @@
 
 DivOpsMatch
 An Open Source Project
-Bulit on Ruby on Rails App
+Bulit on Ruby on Rails
